@@ -7,6 +7,42 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Testing</h1> 
+    <div id="side-hero">
+      <h1>Testing</h1>
+      <img src="TODO" alt="">
+      <div id="logo">
+        <img src="" alt="">
+      </div>
+    </div>    
+    <main>
+      <header>
+        <h1>
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>
+            Sign up <i>now</i> to get started. <br>
+            You <i>know</i> you want to.
+        </h1>
+      </header>
+      <form action="https://arthurbais.com" method="get" id="form1">
+        <h2>Let's do this!</h2>
+        <div class="form_controls">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" required>
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" required>
+          <label for="mail">E-mail</label>
+          <input type="email" name="mail" required>
+          <label for="phone_num">Phone number</label>
+          <input type="tel" id="phone_num" name="phone" required>
+          <label for="pass">Password</label>
+          <input type="password" name="password" id="pass" required>
+          <label for="confirm_pass">Confirm Password</label>
+          <input type="password" name="password" id="confirm_pass" required>
+        </div>
+      </form>
+      <div id="confirm">
+        <button type="submit" form="form1">Create Account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+    </main>
   </body>
 </html>
