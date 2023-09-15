@@ -1,7 +1,59 @@
-h1 {
-  color: red;
+@font-face {
+  font-family: NorseBold;
+  src: url("Norse-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
 }
 
 body {
-  background-color: black;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#side-hero {
+  background-image: url(background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 40vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  margin: 200px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px 0;
+}
+
+#logo img {
+  height: 120px;
+}
+
+figcaption {
+  color: white;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: NorseBold;
+}
+
+#side-hero p {
+  color: white;
+  margin-top: auto;
+  text-align: center;
+  font-size: 18px;
+}
 }
