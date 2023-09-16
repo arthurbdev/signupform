@@ -56,4 +56,96 @@ figcaption {
   text-align: center;
   font-size: 18px;
 }
+
+main {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 80px 200px 50px 50px;
+}
+
+form {
+  background-color: white;
+  box-shadow: 0px 4px 6px 0px #DDD;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+form p {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+/* #form-controls { */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   flex-wrap: wrap; */
+/*   gap: 20px; */
+/* } */
+
+.form-controls {
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.inputPair {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 10px 30px 10px 50px;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline-style: none;
+  border: 1px solid blue;
+  box-shadow: 0 0 5px 1px #6B77F9;
+}
+
+input:valid:not(.error) {
+  outline-style: none;
+  border: 1px solid green;
+  box-shadow: 0 0 5px 1px green;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#confirm {
+  padding: 50px;
+}
+
+#confirm button {
+  padding: 10px 50px;
+  font-size: 20px;
+  background-color: #596d48;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#confirm a{
+  color: #596d48;
+  text-decoration: none;
+  font-size: 20px;
 }
