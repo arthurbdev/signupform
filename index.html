@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div id="side-hero">
@@ -43,11 +44,12 @@
           </div>
           <div class="inputPair">
             <label for="pass">Password</label>
-            <input class="error" type="password" name="password" id="pass" required>
+            <input type="password" name="password" id="pass" required>
+            <span id="errorMsg">*Passwords do not match</span>
           </div>
           <div class="inputPair">
             <label for="confirm_pass">Confirm Password</label>
-            <input class="error" type="password" name="password" id="confirm_pass" required>
+            <input type="password" name="password" id="confirmPass" required>
           </div>
         </div>
       </form>

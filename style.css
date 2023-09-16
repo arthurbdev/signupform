@@ -143,4 +143,14 @@ label {
   font-size: 20px;
 }
 
+#errorMsg {
+  font-size: 10px;
+  color: red;
+  visibility: hidden;
+}
 
+.error {
+  outline-style: none;
+  border: 1px solid red;
+  box-shadow: 0 0 5px 1px red;
+}
